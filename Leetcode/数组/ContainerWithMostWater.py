@@ -14,3 +14,20 @@ Output: 49
 复杂度为：时间 O(n)   空间：O(1)
 '''
 class Solution(Object):
+    def maxArea(self, height):
+      '''
+      :type height: List[int]
+      :rtype: int
+      '''
+      l, r =  0, len(height)-1
+      currentMax = 0
+    
+      while l != r:
+          currentMax = max(min(height[r], height[l]) * (r-l), currentMax)
+          if height[r] > height[l]:
+              l += 1
+		  else:
+			  r -= 1
+	  return currentMax
+	
+  
