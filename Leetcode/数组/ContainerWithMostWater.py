@@ -26,8 +26,8 @@ class Solution(Object):
           currentMax = max(min(height[r], height[l]) * (r-l), currentMax)
           if height[r] > height[l]:
               l += 1
-		  else:
-			  r -= 1
-	  return currentMax
+	  else:
+	      r -= 1
+    return currentMax
 	
   
