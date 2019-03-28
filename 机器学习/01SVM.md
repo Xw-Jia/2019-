@@ -96,13 +96,9 @@ $$k(x,y)=(ax^T+c)^d$$
 
 3）高斯核函数
 径向基核函数也称为高斯核函数
-$$k(x,y)=exp(-\frac{\begin{Vmatrix}\end{Vmatrix}}{2\delta^2})$$
-
-　　
-
-　　参数较少，只需要自己去设置参数 σ
-
-　　4）Sigmoid 核函数
+$$k(x,y)=exp(-\frac{\begin{Vmatrix}x-y\end{Vmatrix}^2}{2\delta^2})$$
+参数较少，只需要自己去设置参数 σ
+4）Sigmoid 核函数
 
 　　K(x, y) = tanh (ax · z + r)
 
