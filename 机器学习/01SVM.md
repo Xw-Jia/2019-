@@ -11,6 +11,7 @@
 $$f(x) = sign(W*x+b)$$
 
 $sign(x)$是指示函数，自变量大于0取1，小于零取-1![感知机](https://i.loli.net/2019/03/28/5c9c4c841e95f.png)
+
 对于正确分类的点，$y(Wx+b) > 0$,对于错误分类的点，$<0$，所以，采用损失函数，使所有误分类的点到超平面的距离之和最小。
 
 $$-\frac{1}{\begin{Vmatrix}w\end{Vmatrix}}\sum_{x_i\in{M}}y_i(w*x_i+b)$$
