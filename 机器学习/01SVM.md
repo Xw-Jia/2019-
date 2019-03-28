@@ -15,7 +15,8 @@ $$-\frac{1}{\begin{Vmatrix}w\end{Vmatrix}}\sum_{x_i\in{M}}y_i(w*x_i+b)$$
 $$L(w,b)=-\sum_{x_i\in{M}}y_i(w*x_i+b)$$
 
 ## 2 SVM
->感知机中，目标是将训练集
+>感知机中，目标是将训练集分开，而能够将样本分开的超平面有很多。SVM本质上类似于感知机，但是要求却更加苛刻。
+
 
 
 
