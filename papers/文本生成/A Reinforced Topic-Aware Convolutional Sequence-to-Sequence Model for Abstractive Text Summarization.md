@@ -50,6 +50,8 @@
 我们在本节介绍前者，接下来介绍后者，以及**新的联合关注和偏见生成机制**。
 
 #### Position Embeddings(位置嵌入)
+#### Convolutional Layer(卷积层)
+#### Multi-step Attention(多步注意力机制)
 
 
 
