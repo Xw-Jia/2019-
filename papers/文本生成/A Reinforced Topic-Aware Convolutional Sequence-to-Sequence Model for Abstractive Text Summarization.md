@@ -95,6 +95,11 @@
 #### Joint Attention(联合注意力机制？)
 > 意思是主题嵌入与注意力机制相结合
 
+下面任意decoder端为例：
+主题水平上的decoder的第l层第i卷积单元的计算公式与公式4类似：
+![title](https://i.loli.net/2019/04/03/5ca45f5f5fa16.png)
+
+
 #### Biased Probability Generation(有偏概率生成)
 ************
 ### 3.3  Reinforcement Learning
