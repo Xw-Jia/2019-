@@ -52,6 +52,8 @@
 #### Position Embeddings(位置嵌入)
 #### Convolutional Layer(卷积层)
 #### Multi-step Attention(多步注意力机制)
+********
+### 3.2  ConvS2S Architecture
 
 
 
