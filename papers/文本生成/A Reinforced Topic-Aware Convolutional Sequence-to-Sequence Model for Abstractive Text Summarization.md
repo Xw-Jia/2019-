@@ -118,6 +118,9 @@
 
 ************
 ### 3.3  Reinforcement Learning
+>一般情况下，目标函数为在每一decode步极小最大似然估计损失函数：
+![title](https://i.loli.net/2019/04/03/5ca464e378c3c.png)
+
 
 
 
