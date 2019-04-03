@@ -63,7 +63,7 @@
 重写输出`Y为Y=[A; B]`,其中 `A, B ∈ R^d`。这里引入一个新的概念--gated linear unit(GLU)，这类似于激活函数。
 **g([A;B])=A ⊗ σ(B)**
 其中，⊗ 表示矩阵的元素相乘，σ是sigmoid函数。GLU的输出空间为R^d。**GLU相当于Relu激活单元：(X * W + b)，加上一个Sigmoid激活单元：O(X * V + c)组成的。**
-我们用h^l =(h^l_1,...,h^l_n)表示decoder端第l层的输出， z^l = (z^l_1,...,z^l_m)表示encoder端的第l层输出。 下面以encoder端为例，第l个卷积层的第i个单元的计算公式为：
+我们用`h^l =(h^l_1,...,h^l_n)`表示decoder端第l层的输出， z^l = (z^l_1,...,z^l_m)表示encoder端的第l层输出。 下面以encoder端为例，第l个卷积层的第i个单元的计算公式为：
 
 
 #### Multi-step Attention(多步注意力机制)
