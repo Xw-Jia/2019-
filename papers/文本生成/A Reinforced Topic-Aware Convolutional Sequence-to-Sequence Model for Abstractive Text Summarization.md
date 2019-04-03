@@ -75,6 +75,7 @@
 ![title](https://i.loli.net/2019/04/03/5ca4564f3bb26.png)
 其中：`q_i ∈ R^d` 是先前decoded元素的embedding。权重 `W_d^l ∈ R^{d×d}`，偏差 `b^l_d ∈ R^d`。
 在状态i和输入元素j的注意力权重α^l_{ij}的计算公式为：
+![title](https://i.loli.net/2019/04/03/5ca4579699cd7.png)
 
 
 
