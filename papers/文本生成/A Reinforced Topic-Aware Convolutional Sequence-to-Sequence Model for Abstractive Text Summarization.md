@@ -2,7 +2,7 @@
 > [daima_不完善](https://github.com/sc-lj/NLP/blob/8d2df8ffd2ce676c3ed0b704111931c745fe50a1/Summarization/ConvS2S/README.md)
 [阅读笔记_机器之心](https://www.jiqizhixin.com/articles/IJCAI2018-Tencent-Model-for-Abstractive-Text-Summarization)
 **另外，2018年的Facebook类似的：[代码完备](https://github.com/EdinburghNLP/XSum/tree/59f6884f8f81f9e1749db4053b2c26efd4f318a8)**
-其他参考：[链接]()
+其他参考：[链接](https://github.com/SunshineBot/paper-notes/blob/4c17445c2fa23bc06011b9fc3990b210586f7b7c/Abstractive%20Text%20Summarization%20-%20Notes.md)
 ## Abstract
 在本文中，我们提出了一种深度学习方法，通过**将主题信息合并到卷积序列到序列（ConvS2S）模型并使用自我关键序列训练（SCST）进行优化来解决自动摘要任务**。
 通过**共同关注主题和词级对齐**(jointly attending to topics and word-level alignment)，我们的方法可以通过有偏差的概率生成机制(biased probability generation mechanism)来提高生成的摘要的一致性，多样性和信息性。
