@@ -73,6 +73,7 @@
 #### Multi-step Attention(多步注意力机制)
 引入注意力机制是为了使模型获得更多文本的历史信息。 先把当前的decoder状态h^l_i嵌入为:
 ![title](https://i.loli.net/2019/04/03/5ca4564f3bb26.png)
+其中：·q_i ∈ R^d 是先前decoded元素的embedding。权重 W_d^l ∈ R^{d×d}，偏差 b^l_d ∈ R^d。
 
 
 
