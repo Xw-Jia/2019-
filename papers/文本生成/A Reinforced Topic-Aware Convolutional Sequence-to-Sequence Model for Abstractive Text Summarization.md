@@ -1,4 +1,5 @@
 # 一种用于抽象文本摘要的强化主题感知卷积序列到序列模型
+> [daima]()
 ## Abstract
 在本文中，我们提出了一种深度学习方法，通过**将主题信息合并到卷积序列到序列（ConvS2S）模型并使用自我关键序列训练（SCST）进行优化来解决自动摘要任务**。
 通过**共同关注主题和词级对齐**(jointly attending to topics and word-level alignment)，我们的方法可以通过有偏差的概率生成机制(biased probability generation mechanism)来提高生成的摘要的一致性，多样性和信息性。
