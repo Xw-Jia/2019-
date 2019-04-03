@@ -112,6 +112,9 @@
 通过一个线性层`Ψ(·)`转化前top的词等级的decoder端输出`h^\{L0}`和主题等级decoder端输出`h̃ ^{Lt}`。
 ![title](https://i.loli.net/2019/04/03/5ca4615276ad1.png)
 偏差生成分布：
+![title](https://i.loli.net/2019/04/03/5ca461711a7f5.png)
+
+
 ************
 ### 3.3  Reinforcement Learning
 
