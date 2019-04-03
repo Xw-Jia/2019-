@@ -67,6 +67,7 @@
 
 下面以decoder端为例，第l个卷积层的第i个单元的计算公式为：
 ![title](https://i.loli.net/2019/04/03/5ca4542fed566.png)
+其中:h^l_i ∈ R^d，◦ 表示复合函数.
 
 
 
