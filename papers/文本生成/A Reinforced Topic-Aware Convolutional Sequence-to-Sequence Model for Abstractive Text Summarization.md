@@ -105,9 +105,9 @@
 条件输入c̃ ^l_i ∈ R^d的计算公式为：
 ![title](https://i.loli.net/2019/04/03/5ca4605c0edf7.png)
 在联合注意力机制中，`c̃ ^l_i `和 `c^l_i`加到相关的decoder层 `h̃ ^l_i`的输出中，并作为下一层`h̃ ^{l+1}_i`输入的一部分。
-偏差概率的生成
 
 #### Biased Probability Generation(有偏概率生成)
+接下来，计算下一个目标元素的所有可能`y_{i+1} ∈ R^T，即
 ************
 ### 3.3  Reinforcement Learning
 
