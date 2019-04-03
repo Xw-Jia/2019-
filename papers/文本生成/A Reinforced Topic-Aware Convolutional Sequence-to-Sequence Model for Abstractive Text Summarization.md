@@ -36,6 +36,6 @@
 ## 2 Related Work
 *****
 ## 3 Reinforced Topic-Aware Convolutional Sequence-to-Sequence Model
-
+>**在本节中，我们提出了增强的主题感知卷积序列到序列模型，它包括一个包含输入词和主题的卷积结构，一个联合的多步骤注意机制，一个有偏见的生成结构和一个强化学习过程。**
 
 
