@@ -109,7 +109,9 @@
 #### Biased Probability Generation(有偏概率生成)
 接下来，计算下一个目标元素的所有可能`y_{i+1} ∈ R^T`，即:
 ![title](https://i.loli.net/2019/04/03/5ca4610107537.png)
-通过一个线性层`Ψ(·)`转化前top的词等级的decoder端输出h^\{L0}和主题等级decoder端输出h̃ ^{Lt}。
+通过一个线性层`Ψ(·)`转化前top的词等级的decoder端输出`h^\{L0}`和主题等级decoder端输出`h̃ ^{Lt}`。
+![title](https://i.loli.net/2019/04/03/5ca4615276ad1.png)
+偏差生成分布：
 ************
 ### 3.3  Reinforcement Learning
 
