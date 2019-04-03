@@ -4,4 +4,4 @@
 通过共同关注主题和词级对齐(jointly attending to topics and word-level alignment)，我们的方法可以通过有偏差的概率生成机制(biased probability generation mechanism)来提高生成的摘要的一致性，多样性和信息性。
 另一方面，像SCST一样，强化训练直接优化了关于非可微度度量ROUGE的所提出的模型，这也避免了推理期间的暴露偏差。
 我们使用Gigaword，DUC-2004和LCSTS数据集上的最先进方法进行实验评估。
-实证结果证明了我们提出的方法在抽象概括中的优越性
+实证结果证明了我们提出的方法在抽象概括中的优越性.
