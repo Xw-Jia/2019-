@@ -77,7 +77,8 @@
 在状态i和输入元素j的注意力权重α^l_{ij}的计算公式为：
 ![title](https://i.loli.net/2019/04/03/5ca4579699cd7.png)
 其中：`z^{u_o}_j`表示上一次encoder端的输出结果.
-当前decoder层的条件输入c^l_i ∈ R^d的计算公式:
+当前decoder层的条件输入c^l_i ∈ R^d的计算公式:**?条件输入?**
+![title](https://i.loli.net/2019/04/03/5ca4588867027.png)
 
 
 
