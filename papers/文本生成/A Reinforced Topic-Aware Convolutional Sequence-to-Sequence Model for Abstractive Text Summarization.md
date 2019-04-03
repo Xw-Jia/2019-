@@ -58,6 +58,7 @@
 #### Convolutional Layer(卷积层)
 在encoder端和decoder端构建几层卷积神经网络，并且假设`卷积核大小为k`，`输入元素的维度为d`。那么卷积神经网络的将**k个输入元素进行串联**，得到`X ∈ R^{kd}`；映射得到的输出元素为`Y ∈ R^{2d}`; 即：
 
+
 #### Multi-step Attention(多步注意力机制)
 ********
 ### 3.2  Topic-Aware Attention Mechanism
