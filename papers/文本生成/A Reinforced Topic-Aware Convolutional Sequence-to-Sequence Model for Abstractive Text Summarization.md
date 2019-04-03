@@ -51,13 +51,14 @@
 ### 3.1  ConvS2S Architecture
 >我们利用ConvS2S架构[Gehring et al。，2017]作为我们模型的基础架构。
 在本文中，**使用了两个卷积块，分别与wordlevel和topic-level嵌入相关联**。
-我们在本节介绍前者，接下来介绍后者，以及**新的联合注意力机制和偏见生成机制**。
+我们在本节介绍前者，接下来介绍后者，以及**新的联合注意力机制和有偏文本生成机制**。
 
 #### Position Embeddings(位置嵌入)
 #### Convolutional Layer(卷积层)
 #### Multi-step Attention(多步注意力机制)
 ********
 ### 3.2  Topic-Aware Attention Mechanism
+>主题模型是一种用于发现源文章集合中出现的抽象主题思想或隐藏语义的统计模型。在本论文中，我们使用了主题模型来获取文档的隐含知识以及将引入主题信息的多步注意力机制集成到 ConvS2S 模型中，这有望为文本摘要提供先验知识。现在我们介绍如何通过联合注意机制和带偏置概率生成过程将主题模型信息引入到基本 ConvS2S 框架中
 #### Topic Embeddings(主题嵌入)
 #### Joint Attention(联合注意力机制？)
 #### Biased Probability Generation(有偏概率生成)
