@@ -98,7 +98,8 @@
 下面任意decoder端为例：
 主题水平上的decoder的第l层第i卷积单元的计算公式与公式4类似：
 ![title](https://i.loli.net/2019/04/03/5ca45f5f5fa16.png)
-
+**将主题信息通过联合注意力机制引入到模型中，联合注意力权重 `β^l_{ij}`的计算公式为：**
+![title](https://i.loli.net/2019/04/03/5ca45fbcf0e1d.png)
 
 #### Biased Probability Generation(有偏概率生成)
 ************
