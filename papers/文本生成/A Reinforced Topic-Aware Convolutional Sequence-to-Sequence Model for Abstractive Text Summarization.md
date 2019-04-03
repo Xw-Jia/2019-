@@ -54,6 +54,7 @@
 我们在本节介绍前者，接下来介绍后者，以及**新的联合注意力机制和有偏文本生成机制**。
 
 #### Position Embeddings(位置嵌入)
+x = (x1, . . . , xm)表示输入的句子。输入元素的embed分布空间为 w = (w1,...,wm)，其中，wi ∈ R^d是随机初始化矩阵Dword ∈ R^{V ×d}中的一行；词汇表表示为V。 为了保留输入元素的位置信息，增加了位置embed，p = (p1,...,pm)，其中，pi ∈ R^d。最终，输入元素的embed为e = (w1 + p1 , . . . , wm + pm )。 用q = (q1 , . . . , qn )表示在decoder端输出元素的embedding。
 #### Convolutional Layer(卷积层)
 #### Multi-step Attention(多步注意力机制)
 ********
