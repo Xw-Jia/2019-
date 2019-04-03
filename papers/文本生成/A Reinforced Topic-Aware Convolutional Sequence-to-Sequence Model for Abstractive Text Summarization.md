@@ -64,6 +64,7 @@
 **g([A;B])=A ⊗ σ(B)**
 其中，⊗ 表示矩阵的元素相乘，σ是sigmoid函数。GLU的输出空间为R^d。**GLU相当于Relu激活单元：(X * W + b)，加上一个Sigmoid激活单元：O(X * V + c)组成的。**
 我们用`h^l =(h^l_1,...,h^l_n)`表示decoder端第l层的输出， `z^l = (z^l_1,...,z^l_m)`表示encoder端的第l层输出。 
+
 下面以decoder端为例，第l个卷积层的第i个单元的计算公式为：
 ![title](https://i.loli.net/2019/04/03/5ca4542fed566.png)
 
