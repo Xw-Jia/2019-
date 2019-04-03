@@ -107,7 +107,9 @@
 在联合注意力机制中，`c̃ ^l_i `和 `c^l_i`加到相关的decoder层 `h̃ ^l_i`的输出中，并作为下一层`h̃ ^{l+1}_i`输入的一部分。
 
 #### Biased Probability Generation(有偏概率生成)
-接下来，计算下一个目标元素的所有可能`y_{i+1} ∈ R^T，即
+接下来，计算下一个目标元素的所有可能`y_{i+1} ∈ R^T`，即:
+![title](https://i.loli.net/2019/04/03/5ca4610107537.png)
+通过一个线性层`Ψ(·)`转化前top的词等级的decoder端输出h^\{L0}和主题等级decoder端输出h̃ ^{Lt}。
 ************
 ### 3.3  Reinforcement Learning
 
