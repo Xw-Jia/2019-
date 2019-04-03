@@ -56,7 +56,7 @@
 #### Position Embeddings(位置嵌入)
 `x = (x1, . . . , xm)`表示输入的句子。输入单词的embed分布空间为 `w = (w1,...,wm)`，其中,`wi ∈ R^d`是随机初始化矩阵`Dword ∈ R^{V ×d}`中的一行；词汇表表示为`V`。 为了保留输入元素的位置信息，增加了位置embed，`p = (p1,...,pm)`，其中，`pi ∈ R^d`。最终，输入元素的embed为`e = (w1 + p1 , . . . , wm + pm )`。 用`q = (q1 , . . . , qn )`表示在decoder端输出元素的embedding。
 #### Convolutional Layer(卷积层)
-
+在encoder端和decoder端构建几层卷积神经网络，并且假设`卷积核大小为k`，`输入元素的维度为d`。那么卷积神经网络的将k个输入元素进行串联，得到X ∈ R^{kd}；映射得到的输出元素为Y ∈ R^{2d}; 即：
 #### Multi-step Attention(多步注意力机制)
 ********
 ### 3.2  Topic-Aware Attention Mechanism
