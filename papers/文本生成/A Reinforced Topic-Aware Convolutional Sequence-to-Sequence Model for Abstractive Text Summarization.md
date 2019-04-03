@@ -100,8 +100,11 @@
 ![title](https://i.loli.net/2019/04/03/5ca45f5f5fa16.png)
 **将主题信息通过联合注意力机制引入到模型中，联合注意力权重 `β^l_{ij}`的计算公式为：**
 ![title](https://i.loli.net/2019/04/03/5ca45fbcf0e1d.png)
-其中，`z^{ut}_j`是最后一个encoder块`u_t`的输出。`z^{u0}_j`表示一般的Conv块，z^{ut}_j表示主题的Conv块。
+其中，`z^{ut}_j`是最后一个encoder块`u_t`的输出。`z^{u0}_j`表示一般的Conv块，`z^{ut}_j`表示主题的Conv块。
+
 条件输入c̃ ^l_i ∈ R^d的计算公式为：
+![title](https://i.loli.net/2019/04/03/5ca4605c0edf7.png)
+
 
 #### Biased Probability Generation(有偏概率生成)
 ************
