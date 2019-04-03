@@ -55,8 +55,8 @@
 ********
 ### 3.2  Topic-Aware Attention Mechanism
 #### Topic Embeddings(主题嵌入)
-#### PJoint Attention(位置嵌入)
-#### Position Embeddings(位置嵌入)
+#### Joint Attention(联合注意力机制)
+#### Biased Probability Generation(位置嵌入)
 
 
 
